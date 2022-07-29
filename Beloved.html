@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="Book display.css">
+    <link rel="stylesheet" href="Overall.css">
+    <link rel="stylesheet" href="mobile.css">
+    <link rel="stylesheet" href="breadcrumb.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+    <div class="header">
+        <img class=weblogo src="Images/world book.jpg" alt="World Book logo">
+        <h2>
+            Worldbook
+        </h2>
+        <div class="nav-pc">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="Sci-Fi&Fantasy.html ">Sci-fi & Fantasy</a></li>
+                <li><a href="Literature&Fiction.html">Literature & Fiction </a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="header-mobile">
+        <img class=weblogo src="Images/world book.jpg" alt="World Book logo">
+        <h2>
+            Worldbook
+        </h2>
+        <label for="nav-open-input" class="nav-bar-mobile">
+                <img class=mobile-menu src="Images/hamburgermenu.png" alt="Navigation Bar for mobile">
+            </label>
+
+        <input type="checkbox" name="" hidden class="nav-input" id="nav-open-input">
+        <label for="nav-open-input" class="nav-bar-mobile-overlay"></label>
+
+        <div class="nav-overlay"></div>
+        <nav class="nav-bar-mobile-list">
+            <!-- nav mobile -->
+            <div class="nav-bar-mobile-close">
+                <label for="nav-open-input"><img src="Images/exit.png" alt="Exit button for navigation bar mobile"></label>
+            </div>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="Sci-Fi&Fantasy.html ">Sci-fi & Fantasy</a></li>
+                <li><a href="Literature&Fiction.html">Literature & Fiction </a></li>
+            </ul>
+        </nav>
+    </div>
+    <div>
+        <ul class="breadcrumb">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="Literature&Fiction.html">Literature & Fiction</a></li>
+            <li>Beloved</li>
+        </ul>
+    </div>
+    <div class="bookinfo">
+        <table>
+            <tbody>
+                <tr>
+                    <td rowspan="3"><img class="bigpic" src="Images/VintageBeloved.jpg" alt="book cover of Beloved"></td>
+                    <td><img class="smallpic" src="Images/VintageBeloved2.jpg" alt="more images of the book Beloved"></td>
+                </tr>
+                <tr>
+                    <td><img class="smallpic" src="Images/VintageBeloved3.jpg" alt="more images of the book Beloved"></td>
+                    <td>
+                        <h1>Book price: $5.19</h1>
+                        <button class="button" onclick="alert('Added to cart')">Add to cart</button>
+                    </td>
+                </tr>
+                <tr>
+                    <td><img class="smallpic" src="Images/VintageBeloved4.jpg" alt="more images of the book Beloved"></td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <div class="bookinfo-mobile">
+        <table>
+            <tbody>
+                <tr>
+                    <td colspan="3"><img class="bigpic-mobile" src="Images/VintageBeloved.jpg" alt="book cover of Beloved"></td>
+                </tr>
+                <tr>
+                    <td><img class="smallpic" src="Images/VintageBeloved2.jpg" alt="more images of the book Beloved"></td>
+                    <td><img class="smallpic" src="Images/VintageBeloved3.jpg" alt="more images of the book Beloved"></td>
+                    <td><img class="smallpic" src="Images/VintageBeloved4.jpg" alt="more images of the book Beloved"></td>
+                </tr>
+                <tr>
+                    <td colspan="3">
+                        <h1>Book price: $5.99</h1>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="3"><button class="button" onclick="alert('Added to cart')">Add to cart</button></td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <div class="bookdescription">
+        <h1>Beloved</h1>
+        <h2>Book description</h2>
+        <p>The novel is based on the true story of a Black slave woman, Margaret Garner, who in 1856 escaped from a Kentucky plantation with her husband, Robert, and their children. They sought refuge in Ohio, but their owner and law officers soon caught
+            up with the family. Before their recapture, Margaret killed her young daughter to prevent her return to slavery. In the novel, Sethe is also a passionately devoted mother, who flees with her children from an abusive owner known as “schoolteacher.”
+            They are caught, and, in an act of supreme love and sacrifice, she too tries to kill her children to keep them from slavery. Only her two-year-old daughter dies, and the schoolteacher, believing that Sethe is crazy, decides not to take her
+            back. Sethe later has “Beloved” inscribed on her daughter’s tombstone. Although she had intended for it to read “Dearly Beloved,” she did not have the energy to “pay” for two words (each word cost her 10 minutes of sex with the engraver).
+            These events are revealed in flashbacks, as the novel opens in 1873, with Sethe and her teenage daughter, Denver, living in Ohio, where their house at 124 Bluestone Road is haunted by the angry ghost of the child Sethe killed. The hauntings
+            are alleviated by the arrival of Paul D, a man so ravaged by his slave past that he keeps his feelings in the “tobacco bin” of his heart. He worked on the same plantation as Sethe, and the two begin a relationship. A brief period of relative
+            calm ends with the appearance of a young woman who says that her name is Beloved. She knows things that suggest she is the reincarnation of Sethe’s lost daughter. Sethe is obsessed with assuaging her guilt and tries to placate the increasingly
+            demanding and manipulative Beloved. At one point, Beloved seduces Paul D. After learning that Sethe killed her daughter, he leaves.
+
+        </p>
+    </div>
+
+    <footer>
+        <ul>
+            <li><a href=#>About Us</a></li>
+            <li><a href=#>Privacy Policy</a></li>
+            <li><a href=#>Terms</a></li>
+            <li><a href=#>Copyright</a></li>
+            <li><a href="Contact.html">Contact Us</a></li>
+        </ul>
+    </footer>
+</body>
+
+</html>

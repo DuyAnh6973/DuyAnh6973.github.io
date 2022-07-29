@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="Book display.css">
+    <link rel="stylesheet" href="Overall.css">
+    <link rel="stylesheet" href="mobile.css">
+    <link rel="stylesheet" href="breadcrumb.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+    <div class="header">
+        <img class=weblogo src="Images/world book.jpg" alt="World Book logo">
+        <h2>
+            Worldbook
+        </h2>
+        <div class="nav-pc">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="Sci-Fi&Fantasy.html ">Sci-fi & Fantasy</a></li>
+                <li><a href="Literature&Fiction.html">Literature & Fiction </a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="header-mobile">
+        <img class=weblogo src="Images/world book.jpg" alt="World Book logo">
+        <h2>
+            Worldbook
+        </h2>
+        <label for="nav-open-input" class="nav-bar-mobile">
+                <img class=mobile-menu src="Images/hamburgermenu.png" alt="Navigation Bar for mobile">
+            </label>
+
+        <input type="checkbox" name="" hidden class="nav-input" id="nav-open-input">
+        <label for="nav-open-input" class="nav-bar-mobile-overlay"></label>
+
+        <div class="nav-overlay"></div>
+        <nav class="nav-bar-mobile-list">
+            <!-- nav mobile -->
+            <div class="nav-bar-mobile-close">
+                <label for="nav-open-input"><img src="Images/exit.png" alt="Exit button for navigation bar mobile"></label>
+            </div>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="Sci-Fi&Fantasy.html ">Sci-fi & Fantasy</a></li>
+                <li><a href="Literature&Fiction.html">Literature & Fiction </a></li>
+            </ul>
+        </nav>
+    </div>
+    <div>
+        <ul class="breadcrumb">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="Sci-Fi&Fantasy.html ">Sci-fi & Fantasy</a></li>
+            <li>The Windup Girl</li>
+        </ul>
+    </div>
+    <div class="bookinfo">
+        <table>
+            <tbody>
+                <tr>
+                    <td rowspan="3"><img class="bigpic" src="Images/TheWindupGirl.jpg" alt="book cover of The Windup Girls"></td>
+                    <td><img class="smallpic" src="Images/TheWindupGirl2.jpg" alt="more images of the book The Windup Girls"></td>
+                </tr>
+                <tr>
+                    <td><img class="smallpic" src="Images/TheWindupGirl3.jpg" alt="more images of the book The Windup Girls"></td>
+                    <td>
+                        <h1>Book price: $4.39</h1>
+                        <button class="button" onclick="alert('Added to cart')">Add to cart</button>
+                    </td>
+                </tr>
+                <tr>
+                    <td><img class="smallpic" src="Images/TheWindupGirl4.jpg" alt="more images of the book The Windup Girls"></td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <div class="bookinfo-mobile">
+        <table>
+            <tbody>
+                <tr>
+                    <td colspan="3"><img class="bigpic-mobile" src="Images/TheWindupGirl.jpg" alt="book cover of The Windup Girl"></td>
+                </tr>
+                <tr>
+                    <td><img class="smallpic" src="Images/TheWindupGirl2.jpg" alt="more images of the book The Windup Girl"></td>
+                    <td><img class="smallpic" src="Images/TheWindupGirl3.jpg" alt="more images of the book The Windup Girl"></td>
+                    <td><img class="smallpic" src="Images/TheWindupGirl4.jpg" alt="more images of the book The Windup Girl"></td>
+                </tr>
+                <tr>
+                    <td colspan="3">
+                        <h1>Book price: $5.99</h1>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="3"><button class="button" onclick="alert('Added to cart')">Add to cart</button></td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <div class="bookdescription">
+        <h1>The Windup Girl</h1>
+        <h2>Book description</h2>
+        <p>Anderson Lake is a company man, AgriGen’s Calorie Man in Thailand. Undercover as a factory manager, Anderson combs Bangkok’s street markets in search of foodstuffs thought to be extinct, hoping to reap the bounty of history’s lost calories. There,
+            he encounters Emiko... Emiko is the Windup Girl, a strange and beautiful creature. One of the New People, Emiko is not human; she is an engineered being, crèche-grown and programmed to satisfy the decadent whims of a Kyoto businessman, but
+            now abandoned to the streets of Bangkok. Regarded as soulless beings by some, devils by others, New People are slaves, soldiers, and toys of the rich in a chilling near future in which calorie companies rule the world, the oil age has passed,
+            and the side effects of bio-engineered plagues run rampant across the globe. What happens when calories become currency? What happens when bio-terrorism becomes a tool for corporate profits, when said bio-terrorism’s genetic drift forces mankind
+            to the cusp of post-human evolution? Award-winning author Paolo Bacigalupi delivers one of the most highly acclaimed science fiction novels of the twenty-first century.</p>
+    </div>
+
+    <footer>
+        <ul>
+            <li><a href=#>About Us</a></li>
+            <li><a href=#>Privacy Policy</a></li>
+            <li><a href=#>Terms</a></li>
+            <li><a href=#>Copyright</a></li>
+            <li><a href="Contact.html">Contact Us</a></li>
+        </ul>
+    </footer>
+</body>
+
+</html>

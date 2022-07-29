@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="Book display.css">
+    <link rel="stylesheet" href="Overall.css">
+    <link rel="stylesheet" href="mobile.css">
+    <link rel="stylesheet" href="breadcrumb.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+    <div class="header">
+        <img class=weblogo src="Images/world book.jpg" alt="World Book logo">
+        <h2>
+            Worldbook
+        </h2>
+        <div class="nav-pc">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="Sci-Fi&Fantasy.html ">Sci-fi & Fantasy</a></li>
+                <li><a href="Literature&Fiction.html">Literature & Fiction </a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="header-mobile">
+        <img class=weblogo src="Images/world book.jpg" alt="World Book logo">
+        <h2>
+            Worldbook
+        </h2>
+        <label for="nav-open-input" class="nav-bar-mobile">
+                <img class=mobile-menu src="Images/hamburgermenu.png" alt="Navigation Bar for mobile">
+            </label>
+
+        <input type="checkbox" name="" hidden class="nav-input" id="nav-open-input">
+        <label for="nav-open-input" class="nav-bar-mobile-overlay"></label>
+
+        <div class="nav-overlay"></div>
+        <nav class="nav-bar-mobile-list">
+            <!-- nav mobile -->
+            <div class="nav-bar-mobile-close">
+                <label for="nav-open-input"><img src="Images/exit.png" alt="Exit button for navigation bar mobile"></label>
+            </div>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="Sci-Fi&Fantasy.html ">Sci-fi & Fantasy</a></li>
+                <li><a href="Literature&Fiction.html">Literature & Fiction </a></li>
+            </ul>
+        </nav>
+    </div>
+    <div>
+        <ul class="breadcrumb">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="Literature&Fiction.html">Literature & Fiction</a></li>
+            <li>1984</li>
+        </ul>
+    </div>
+    <div class="bookinfo">
+        <table>
+            <tbody>
+                <tr>
+                    <td rowspan="3"><img class="bigpic" src="Images/1984.jpg" alt="book cover of 1984"></td>
+                    <td><img class="smallpic" src="Images/1984-1.jpg" alt="more images of the book 1984"></td>
+                </tr>
+                <tr>
+                    <td><img class="smallpic" src="Images/1984-2.jpg" alt="more images of the book 1984"></td>
+                    <td>
+                        <h1>Book price: $5.99</h1>
+                        <button class="button" onclick="alert('Added to cart')">Add to cart</button>
+                    </td>
+                </tr>
+                <tr>
+                    <td><img class="smallpic" src="Images/1984-3.jpg" alt="more images of the book 1984"></td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <div class="bookinfo-mobile">
+        <table>
+            <tbody>
+                <tr>
+                    <td colspan="3"><img class="bigpic-mobile" src="Images/1984.jpg" alt="book cover of 1984"></td>
+                </tr>
+                <tr>
+                    <td><img class="smallpic" src="Images/1984-1.jpg" alt="more images of the book 1984"></td>
+                    <td><img class="smallpic" src="Images/1984-2.jpg" alt="more images of the book 1984"></td>
+                    <td><img class="smallpic" src="Images/1984-3.jpg" alt="more images of the book 1984"></td>
+                </tr>
+                <tr>
+                    <td colspan="3">
+                        <h1>Book price: $5.99</h1>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="3"><button class="button" onclick="alert('Added to cart')">Add to cart</button></td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <div class="bookdescription">
+        <h1>1984</h1>
+        <h2>Book description</h2>
+        <p>The book is set in 1984 in Oceania, one of three perpetually warring totalitarian states (the other two are Eurasia and Eastasia). Oceania is governed by the all-controlling Party, which has brainwashed the population into unthinking obedience
+            to its leader, Big Brother. The Party has created a propagandistic language known as Newspeak, which is designed to limit free thought and promote the Party’s doctrines. Its words include doublethink (belief in contradictory ideas simultaneously),
+            which is reflected in the Party’s slogans: “War is peace,” “Freedom is slavery,” and “Ignorance is strength.” The Party maintains control through the Thought Police and continual surveillance. The book’s hero, Winston Smith, is a minor party
+            functionary living in a London that is still shattered by a nuclear war that took place not long after World War II. He belongs to the Outer Party, and his job is to rewrite history in the Ministry of Truth, bringing it in line with current
+            political thinking. However, Winston’s longing for truth and decency leads him to secretly rebel against the government. He embarks on a forbidden affair with Julia, a like-minded woman, and they rent a room in a neighbourhood populated by
+            Proles (short for proletariats). Winston also becomes increasingly interested in the Brotherhood, a group of dissenters. Unbeknownst to Winston and Julia, however, they are being watched closely (ubiquitous posters throughout the city warn
+            residents that “Big Brother is watching you.”).
+
+        </p>
+    </div>
+
+    <footer>
+        <ul>
+            <li><a href=#>About Us</a></li>
+            <li><a href=#>Privacy Policy</a></li>
+            <li><a href=#>Terms</a></li>
+            <li><a href=#>Copyright</a></li>
+            <li><a href="Contact.html">Contact Us</a></li>
+        </ul>
+    </footer>
+</body>
+
+</html>

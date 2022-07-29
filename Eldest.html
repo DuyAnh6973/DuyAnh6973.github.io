@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="Book display.css">
+    <link rel="stylesheet" href="Overall.css">
+    <link rel="stylesheet" href="mobile.css">
+    <link rel="stylesheet" href="breadcrumb.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+    <div class="header">
+        <img class=weblogo src="Images/world book.jpg" alt="World Book logo">
+        <h2>
+            Worldbook
+        </h2>
+        <div class="nav-pc">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="Sci-Fi&Fantasy.html ">Sci-fi & Fantasy</a></li>
+                <li><a href="Literature&Fiction.html">Literature & Fiction </a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="header-mobile">
+        <img class=weblogo src="Images/world book.jpg" alt="World Book logo">
+        <h2>
+            Worldbook
+        </h2>
+        <label for="nav-open-input" class="nav-bar-mobile">
+                <img class=mobile-menu src="Images/hamburgermenu.png" alt="Navigation Bar for mobile">
+            </label>
+
+        <input type="checkbox" name="" hidden class="nav-input" id="nav-open-input">
+        <label for="nav-open-input" class="nav-bar-mobile-overlay"></label>
+
+        <div class="nav-overlay"></div>
+        <nav class="nav-bar-mobile-list">
+            <!-- nav mobile -->
+            <div class="nav-bar-mobile-close">
+                <label for="nav-open-input"><img src="Images/exit.png" alt="Exit button for navigation bar mobile"></label>
+            </div>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="Sci-Fi&Fantasy.html ">Sci-fi & Fantasy</a></li>
+                <li><a href="Literature&Fiction.html">Literature & Fiction </a></li>
+            </ul>
+        </nav>
+    </div>
+    <div>
+        <ul class="breadcrumb">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="Sci-Fi&Fantasy.html ">Sci-fi & Fantasy</a></li>
+            <li>Eldest</li>
+        </ul>
+    </div>
+    <div class="bookinfo">
+        <table>
+            <tbody>
+                <tr>
+                    <td rowspan="3"><img class="bigpic" src="Images/Eldest.jpg" alt="book cover of Eldest"></td>
+                    <td><img class="smallpic" src="Images/Eldest2.jpg" alt="more images of the book Eldest"></td>
+                </tr>
+                <tr>
+                    <td><img class="smallpic" src="Images/Eldest3.jpg" alt="more images of the book Eldest"></td>
+                    <td>
+                        <h1>Book price: $4.19</h1>
+                        <button class="button" onclick="alert('Added to cart')">Add to cart</button>
+                    </td>
+                </tr>
+                <tr>
+                    <td><img class="smallpic" src="Images/Eldest4.jpg" alt="more images of the book Eldest"></td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <div class="bookinfo-mobile">
+        <table>
+            <tbody>
+                <tr>
+                    <td colspan="3"><img class="bigpic-mobile" src="Images/Eldest.jpg" alt="book cover of Eldest"></td>
+                </tr>
+                <tr>
+                    <td><img class="smallpic" src="Images/Eldest2.jpg" alt="more images of the book Eldest"></td>
+                    <td><img class="smallpic" src="Images/Eldest3.jpg" alt="more images of the book Eldest"></td>
+                    <td><img class="smallpic" src="Images/Eldest4.jpg" alt="more images of the book Eldest"></td>
+                </tr>
+                <tr>
+                    <td colspan="3">
+                        <h1>Book price: $5.99</h1>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="3"><button class="button" onclick="alert('Added to cart')">Add to cart</button></td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <div class="bookdescription">
+        <h1>Eldest</h1>
+        <h2>Book description</h2>
+        <p>Eldest is a young adult fantasy novel by Christopher Paolini. The second book in The Inheritance Cycle saga, it follows the main character as he learns how to ride dragons and protect his lands from the wicked king of a corrupt empire. It was
+            first published in 2005 when Paolini was just a teenager, and it won numerous awards, including the 2007 Colorado Blue Spruce Young Adult Book Award. The series has since been optioned for feature film, although the movie adaptation of the
+            first book, Eragon, didn’t do as well as expected. Paolini’s hometown of Paradise Valley, Montana, inspired much of the scenery in the saga. The protagonist is a boy called Eragon Shadeslayer. He’s fifteen years old and lives in the fictional
+            village of Carvahall on the continent of Alagaësia. He once found a stone in the mountains that turned out to be a dragon’s egg. When the dragon hatches, Eragon calls her Saphira. They bond voluntarily for life. Eragon is now known as a Dragon
+            Rider. At the end of Eragon, Eragon has joined a rebel resistance group called the Varden. They stand against the evil king, King Galbatorix, with some success, but they’re not yet strong enough to defeat him. Some of Eragon’s friends go missing,
+            and he’s desperate to find them again. Eldest begins just as this first battle against King Galbatorixends.
+        </p>
+    </div>
+
+    <footer>
+        <ul>
+            <li><a href=#>About Us</a></li>
+            <li><a href=#>Privacy Policy</a></li>
+            <li><a href=#>Terms</a></li>
+            <li><a href=#>Copyright</a></li>
+            <li><a href="Contact.html">Contact Us</a></li>
+        </ul>
+    </footer>
+</body>
+
+</html>

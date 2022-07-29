@@ -1,0 +1,30 @@
+/* Display list items side by side */
+
+.breadcrumb {
+    margin-top: 20px;
+}
+
+ul.breadcrumb {
+    display: flex
+}
+
+
+/* Add a slash symbol (/) before/behind each list item */
+
+.breadcrumb>li+li:before {
+    padding: 8px;
+    color: black;
+    content: "/\00a0";
+}
+
+
+/* Add a color to all links inside the list */
+
+.breadcrumb>li>a {
+    color: white;
+}
+
+.breadcrumb>li {
+    margin: 0 5px;
+    color: white;
+}
